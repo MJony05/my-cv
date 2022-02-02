@@ -1,0 +1,51 @@
+@media (max-width: 950px) {
+  .navigation a {
+    margin-left: 5px;
+  }
+  nav {
+    width: 100%;
+  }
+  .main-text h2 {
+    font-size: 20px;
+  }
+  .main-text h1 {
+    font-size: 30px;
+  }
+  .main-text h3 {
+    font-size: 20px;
+  }
+  .main-text button {
+    padding: 10px 20px;
+  }
+  .myself-text h1 {
+    font-size: 30px;
+  }
+  .services .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  section {
+    padding-top: 2rem;
+  }
+  .call-text {
+    width: 80%;
+    padding: 30px 10px;
+  }
+}
+@media (max-width: 750px) {
+  .navigation {
+    width: 100px;
+    height: 100vh;
+    padding: 50px 10px;
+    top: 0;
+    right: 0;
+    text-align: center;
+    background-color: white;
+    position: absolute;
+    text-align: center;
+  }
+  .navigation a {
+    margin: 10px 0;
+    display: inline-block;
+  }
+}
